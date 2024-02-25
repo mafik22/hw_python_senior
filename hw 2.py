@@ -48,7 +48,7 @@ def simulate_year(student):
         student.work(job)
 
         print(f"Оцінка {student.name}: {student.get_grade()} | Гроші: {student.get_money()}$")
-
 student = Student("Вася", 1, 50)
 
 simulate_year(student)
+print(f"Дякую за гру")
